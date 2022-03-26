@@ -70,13 +70,13 @@ adaptdas
 
 ### 📌 O que é API?
 
-- Aplication programming Interface
+- Aplication programming Interface (Interface de Programação de aplicativos)
 - Conjuntos de especificações de possíveis interações entre aplicações
 - Documentação para desenvolvedor
 
 ### 📌 O que é REST?
 
-- Representation State Transfer
+- Representation State Transfer (Transferência Representacional de Estado)
 - Modelo de arquitetura
 - 6 Regras
 
@@ -136,7 +136,7 @@ forma de scripts ou mini aplicativos
 
 ### 📌 Parâmetros das Requisições
 
-- **Header Params** ⇒ parâmetros que vão cabeçalho
+- **Header Params** ⇒ parâmetros que vão no cabeçalho
 
 - **Query Params** ⇒ inseridos no final da requisição
   - http://enderecoservidor.com.br/v1/users?page=2&limit=50
