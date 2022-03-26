@@ -8,19 +8,22 @@
 
 ## 💻 Sobre Fundamentos do NodeJS
 
-Nesse módulo foram estudados os conceitos do Node.js, como é o seu funcionamento e os motivos pelo qual ele foi criado.
+Nesse módulo foram estudados os conceitos do Node.js, como é o seu funcionamento 
+e os motivos pelo qual ele foi criado.
 
-Também foram estudados os conceitos e regras por trás de uma API Rest, os métodos HTTPs, os principais códigos de retornos e tipos de parâmetros de uma requisição.
+Também foram estudados os conceitos e regras por trás de uma API Rest, os métodos 
+HTTPs, os principais códigos de retornos e tipos de parâmetros de uma requisição.
 
 ### 📌 O que é Node.js?
 
 - Plataforma open-source permite execução da linguagem javascript do lado do servidor
-- v8 + libub + conjunto de módulos
+- v8 + libuv + conjunto de módulos
 
 ### 📌 O que o Node.js veio resolver?
 
 - criado por Ryan Dahl
-- Barra de progresso do flickr ⇒ percebeu que para verificar o progresso deveria ser feita requisições para o back-end
+- Barra de progresso do flickr ⇒ percebeu que para verificar o progresso deveria 
+ser feita requisições para o back-end
 - Tecnologias da época não davam um bom suporte ao processo de I/O
 
 ### 📌 Características do Node.js
@@ -28,7 +31,9 @@ Também foram estudados os conceitos e regras por trás de uma API Rest, os mét
 - Arquitetura Event Loop
   - Call Stack ⇒ pilhas de funções que serão chamadas
 - Single - Thread
-- No-bocking I/O ⇒ diferente de outras linguagens, quando uma função é a função A e B, não há necessidade de que uma função tenha sido finalizada para que a outra possa ser feita.
+- No-bocking I/O ⇒ diferente de outras linguagens, quando uma função é a função 
+A e B, não há necessidade de que uma função tenha sido finalizada para que a outra 
+possa ser feita.
 - Módulos próprios
   - http
   - dns
@@ -40,7 +45,8 @@ Também foram estudados os conceitos e regras por trás de uma API Rest, os mét
 
 - ouve a Call Stack, com todas as suas funções
 - escuta uma requisição por vez, e enviar para a thread assim que ouve
-- por padrão existem 4 threads disponíveis para serem executadas, que podem ser adaptdas
+- por padrão existem 4 threads disponíveis para serem executadas, que podem ser 
+adaptdas
 - utiliza o padrão UEPS ⇒ último que entra primeiro que sai
 <p align="center">
 <img src="./assets/event-loop.png" alt="Event Loop" />
@@ -77,7 +83,8 @@ Também foram estudados os conceitos e regras por trás de uma API Rest, os mét
 ### 📌 Regras Rest
 
 - **_Client-Server_** ⇒ separação das responsabilidades
-- **_Statelss_** ⇒ cliente pode realizar quantas requisições quiser, porém o servidor não armazena nenhum estado ou seção
+- **_Statelss_** ⇒ cliente pode realizar quantas requisições quiser, porém o 
+servidor não armazena nenhum estado ou seção
 - **_Cache_** ⇒ a aplicação disponibilizar suporte para o cache
 - **_Inteface Uniforme_** ⇒ como o cliente e o servidor vão compartilhar a interface
   - Identificação dos recursos
@@ -93,8 +100,10 @@ Também foram estudados os conceitos e regras por trás de uma API Rest, os mét
 <img src="./assets/codigo.png" width="300" />
 </p>
 
-- **_Camadas_** ⇒ deve permitir que existam camadas entre o client e o service, por exemplo, balanceamento de cargas, seguranças, entre outros
-- **_Código sob demanda_** ⇒ as funcionalidades do cliente sejam e estendidas na forma de scripts ou mini aplicativos
+- **_Camadas_** ⇒ deve permitir que existam camadas entre o client e o service, 
+por exemplo, balanceamento de cargas, seguranças, entre outros
+- **_Código sob demanda_** ⇒ as funcionalidades do cliente sejam e estendidas na 
+forma de scripts ou mini aplicativos
 
 ## 📚 Métodos de Requisições
 
@@ -317,7 +326,8 @@ app.delete("/courses/:id", (request, response) => {
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para 
+mais detalhes.
 
 &nbsp;
 
