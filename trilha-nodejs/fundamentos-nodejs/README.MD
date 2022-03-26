@@ -20,7 +20,7 @@ Também foram estudados os conceitos e regras por trás de uma API Rest, os mét
 ### 📌 O que o Node.js veio resolver?
 
 - criado por Ryan Dahl
-- Bara de progresso do flickr ⇒ percebeu que para verificar o progresso deveria ser feita requisições para o back-end
+- Barra de progresso do flickr ⇒ percebeu que para verificar o progresso deveria ser feita requisições para o back-end
 - Tecnologias da época não davam um bom suporte ao processo de I/O
 
 ### 📌 Características do Node.js
